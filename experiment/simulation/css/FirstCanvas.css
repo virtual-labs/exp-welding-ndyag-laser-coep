@@ -1,0 +1,320 @@
+*{
+	margin:0;
+	padding:0;
+}
+.refresh {
+	background: url("../css/images/rf.png") no-repeat scroll 7px 0px transparent;
+}
+.add {
+	background: url("../css/images/add.png") no-repeat scroll 9px -1px transparent;
+}
+.play {
+	background: url("../css/images/play.png") no-repeat scroll 12px -1px transparent;
+}
+.plot {
+	background: url("../css/images/plot.png") no-repeat scroll 8px -1px transparent;
+}
+body {
+	overflow-x: hidden;
+}
+#start{
+      background: none repeat scroll 0 0 #CD2626;
+      border: medium none;
+      color: #E6E6E6;
+      padding: 5px;
+	  position:relative;
+}
+.inputstyle{
+	 margin: -3em 11em;
+}
+.content {
+	border-bottom: 2px solid #DDDDDD;
+	height: 17em;
+	margin-bottom: 10px;
+	position: relative;
+}
+#start:hover{
+      text-shadow: 1px 1px 2px #000000;
+      box-shadow: 2px 2px 2px #000000;
+}
+#select1 {
+    left: 124px;
+    position: absolute;
+    width: 156px;
+}
+#select2{
+	 left: 124px;
+    position: absolute;
+    width: 156px;
+}
+#plot{
+    margin: -0.9em 9em;
+    position: absolute;
+	 
+}
+#op{
+	   margin: -2em 7em;
+}
+#op2{
+
+	   margin: -2em 7em;
+}
+#op1{
+	  margin: -2em 7em;
+}
+#plot:hover{
+      text-shadow: 1px 1px 2px #000000;
+      box-shadow: 2px 2px 2px #000000;
+}
+
+
+#swf{
+      margin: -0.9em 2em;
+    position: absolute;
+}
+
+
+
+
+/*#colmask_threecol{
+	float:none;margin-left:3%;margin-right: 3%;overflow: hidden;position: relative;width: auto;
+			   background: none repeat scroll 0 0 #E6E6FA;min-height:655px;max-height:auto;clear: both;     
+			   background: none repeat scroll 0 0 #E6E6BA;
+			   border: 10px dotted #FFFFFF;
+			   border-radius: 10px 10px 10px 10px;
+			   position: absolute;
+			   top: 104px;
+			   width: 1323px;
+			   left:-37px;
+}
+*/
+.threecol {
+      background: none repeat scroll 0 0 #E6E6BA;
+      border: 10px dotted #FFFFFF;
+      border-radius: 10px 10px 10px 10px;/* right column background colour */
+}
+.colmask {
+    background: none repeat scroll 0 0 #E6E6BA;
+    clear: both;
+    float: none;
+    height: 736px;
+    margin-left: 3%;
+    margin-right: 3%;
+    max-height: 1500px;
+    min-height: 550px;
+    overflow: hidden;
+    position: relative;
+    top: 125px;
+    width: 1250px;
+}
+#dig1{
+		position:absolute;top:0px;left:0px;height:900px;width:1200px;
+}
+
+#cube{
+		position:absolute;top:326px;left:-278px;
+}
+
+#laser{
+		position:absolute;top:70px;left:-55px;
+}
+
+#button1{
+		position:absolute;top:50px;left:51px;background: none repeat scroll 0 0 #CD2626;
+						border: medium none;
+						color: #E6E6E6;
+}
+
+/*#plot{
+		position:absolute;top:0px;left:181px;
+}*/
+
+#refresh{
+	 margin: -0.9em 14em;
+    position: absolute;
+}
+/*#plot{
+	position: absolute;
+	top:210px;
+	left:90px;
+	 left:430px;
+	  top:217px;
+	
+}*/
+#controlPanel{
+		border: 2px dotted #000000;
+    border-radius: 10px 10px 10px 10px;
+    height: 247px;
+    left: 2px;
+    position: absolute;
+    top: 4px;
+    width: 300px;
+}
+
+#input{
+		position:absolute;top:70px;left:00px;background-color:#E6E6BA; width:300px; height:130px;
+}
+
+#outputPanel{
+		 border: 2px dotted #000000;
+    border-radius: 10px 10px 10px 10px;
+    left: 315px;
+    min-height: 246px;
+    position: absolute;
+    top: 6px;
+    width: 306px;
+}
+.output{
+	 // border: 2px solid red;
+    height: 13em;
+   // left: 60em;
+   margin: -8em 19em;    overflow: auto;
+    position: absolute;
+    width: 15em;
+}
+.output ul{
+	  padding: 9px 15px;
+}
+.div2{
+	// border: 2px solid #000000;
+    height: 33px;
+    position: absolute;
+    top: 213px;
+    width: 302px;
+	
+}
+#digram{
+	 border: 2px dotted #000000;
+    border-radius: 10px 10px 10px 10px;
+    height: 360px;
+    left: 633px;
+   //overflow: auto;
+    position: absolute;
+    top: 6px;
+    width: 612px;
+}
+#h {
+    border: 2px dotted #000000;
+    border-radius: 10px 10px 10px 10px;
+    height: 458px;
+    position: absolute;
+    top: 260px;
+    width:618px;
+}
+#can1{
+   height: 444px;
+    left: 7em;
+    position: absolute;
+    top: 145px;
+    width: 388px;
+}
+#p{
+	 left: 3px;
+    position: absolute;
+    top: 129px;
+}
+#header{
+	top:-13px;
+	left:1px;
+	position:absolute;
+	border:2px groove  #c4c4c4;
+	width:1343px;
+	height:140px;
+	overflow:auto;
+	background : url("../../../images/ui-bg_gloss-wave_35_f6a828_500x100.png") repeat-x scroll 50% 50% #84BFDF;
+}
+
+.odd{
+     background: none repeat scroll 0 0 #216f90;
+	padding: 0px 0 7px 0;
+	color: #FFFFFF !important;
+	border: 0 none !important;
+	border-radius: 0 0 0 0 !important;
+	font-family: "Consolas", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace !important;
+	font-size: 1em !important;
+	font-style: normal !important;
+	font-weight: normal !important;
+	text-align: center !important;
+	width: 13em;
+}
+
+.even{
+    background: none repeat scroll 0 0 #2D94C1;
+	color: #FFFFFF !important;
+	border: 0 none !important;
+	border-radius: 0 0 0 0 !important;
+	font-family: "Consolas", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace !important;
+	font-size: 1em !important;
+	font-style: normal !important;
+	font-weight: normal !important;
+	line-height: 1.1em !important;
+	padding: 5px 0 7px 0;
+	text-align: center !important;
+	width: 13em;
+}
+.container4 {
+	background: none repeat scroll 0 0 #DDDDDD;
+	border: 1px solid #FFFFFF;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+	height: 26em;
+	margin: 0 3em;
+	width: 73.7em;
+}
+.container3 {
+	height: 26em;
+	  width: 38em;
+}
+
+.col1 {
+	border: 1px solid #BBBBBB;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	height: 24em;
+	margin: 1em 1em;
+}
+.col2 {
+	 border: 1px solid #BBBBBB;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    height: 24em;
+    margin: -25em 38em;
+    width: 34.6em;
+}
+.col3 {
+	border: 1px solid #BBBBBB;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	height: 23.9em;
+	  margin: 1em 53.3em;
+    width: 19em;
+}
+.titile {
+	border-bottom: 1px solid #BBBBBB;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;//
+	height: 2em;
+}
+h2 {
+	color: #A8A8A8;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 1.3em;
+	padding: 8px;
+	text-align: center;
+	text-decoration: none;
+}
+
+input{
+	  margin: 2em;
+}
+label { color: #222222;
+	font: 700 81.25% /3em arial, helvetica, sans-serif;
+	margin: 1em;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+}
+h6{
+	 color: #222222;
+    font: 81.25%/3em arial,helvetica,sans-serif;
+    margin: 1em 6em;
+    width: 18em;
+}
