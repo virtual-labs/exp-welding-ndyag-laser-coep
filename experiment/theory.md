@@ -28,8 +28,8 @@ The majority of laser spot welding applications use parts made of galvanized low
 Many manufacturers of automotive components are introducing pulsed Nd:YAG lasers for precision spot welding application. Some battery manufacturing are using nickel tabs for spot welding of the interior and exterior of the battery in order to provide electrical contact and mechanical strength without thermal damage or deformation of the components [3].
 
 **1.0 Process Mechanisms**
-There are two modes of welding with the laser as given below\
-1. key welding\
+There are two modes of welding with the laser as given below
+1. key welding
 2. conduction welding
 
 **1 Keyhole welding**
