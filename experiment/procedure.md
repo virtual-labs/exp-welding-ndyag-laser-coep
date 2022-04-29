@@ -74,7 +74,9 @@ Sample used for Weld strength (tensile strength) test had the shape and dimensio
 
 **1.4 Experimentation**
 Number of spots are considered with different power (interaction time) and beam spot size to identify the appropriate range.
+
 **1.4.1 Spots of different beam power at constant beam spot size**
 The various spots are taken on samples for constant beam spot size 0.85mm within the power range of 486 to 642 Watts.
+
 **1.4.2 Spots of different beam diameter at constant beam power**
 The various spot welded samples are taken for constant beam power 607W for beam spot size ranging from 0.68 to 0.96mm.
