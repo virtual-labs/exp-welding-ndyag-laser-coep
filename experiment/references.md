@@ -14,4 +14,4 @@
 6.    Mishra P. K., (1997) "Nonconventional Machining", Narosa Publishing House, pp. 81-85, 147-159.
 7.    Neugebauer R., (2003) "IWI Fraunhofer Institut 2003 Year Report", Chemnitz, Germany.
 8.    Ribolla A., Damoulis G. L. and Batalha G. F., (2005) "The use of Nd: YAG laser weld for large scale volume assembly of automotive body in white", Journal of materials processing technology, 164-165, pp. 1120-1127.
-9.    Zipperian Donald C., "Metallographic specimen preparation basics", http://www.metallographic.com/Technical/Basics.
+9.    Zipperian Donald C., "Metallographic specimen preparation basics"
