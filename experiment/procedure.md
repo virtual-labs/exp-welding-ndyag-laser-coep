@@ -27,7 +27,19 @@ The specifications of the laser head and 3-axis gantry attached with the system 
 * Motors: Micro stepping motors 2 phase.
 * Micro stepping motor with gearbox, on all axeshe schematic
 
-### Procedure
+## Procedure
+
+### Pre-requisite and note : 
+To ** "Play Animation" **, you need to add browser extensions that support flash files. 
+Here are the required extensions that we suggest -
+1) Flash Player
+2) Ruffle - Flash Emulator
+
+After adding this extensions you can play animation and perform the experiment.
+
+### Steps :
+
+
 **1.0 Material for experimentation**
 
 The stainless steel plates of 0.3mm thickness are used for the experimentation. The chemical analysis was carried out and, the composition obtained is as given in, Table 1.1 below.
