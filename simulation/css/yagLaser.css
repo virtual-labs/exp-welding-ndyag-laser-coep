@@ -1,0 +1,384 @@
+body {
+	margin:0;
+	padding:0;
+	border:0;			/* This removes the border around the viewport in old versions of IE */
+	width:100%;
+	background:#fff;
+	min-width:600px;		/* Minimum width of layout - remove line if not required */
+	font-family: verdana;				/* The min-width property does not work in old versions of Internet Explorer */
+	font-size:85%;
+}
+
+#header{
+	top:1px;
+	left:1px;
+	position:absolute;
+	border:2px groove  #c4c4c4;
+	width:1343px;
+	height:130px;
+	overflow:auto;
+	background : url("../../../images/ui-bg_gloss-wave_35_f6a828_500x100.png") repeat-x scroll 50% 50% #84BFDF;
+}
+/* Header styles 
+#header {
+      background-color: orange;
+      clear: both;
+      height: 50px;
+      padding: 5px 0 10px;
+      width: 100%;
+}
+#header {
+	border-bottom:5px solid #000;
+}*/
+
+/* column container */
+.colmask {
+      clear: both;
+      float: none;
+      margin-left: 3%;
+      margin-right: 3%;
+      overflow: hidden;/* This chops off any overhanging divs */
+      position: relative;
+      width: auto;/* This fixes the IE7 overflow hidden bug */
+      background: none repeat scroll 0 0 #E6E6FA;
+      min-height: 550px;
+      max-height:auto;
+}
+
+/* common column settings */
+.colright,
+.colmid,
+.colleft {
+	float:left;
+	width:1000px;			/* width of page */
+	position:relative;
+}
+.col1,
+.col2,
+.col3 {
+	float:left;
+	position:relative;
+	padding:1em 0 0 0;	/* no left and right padding on columns, we just make them narrower instead only padding top and bottom is included here, make it whatever value you need */
+	overflow:visiable;
+}
+
+/* 3 Column settings */
+.threecol {
+      background: none repeat scroll 0 0 #E6E6BA;
+      border: 10px dotted #FFFFFF;
+      border-radius: 10px 10px 10px 10px;/* right column background colour */
+	  position: absolute;
+	  top: 147px;
+	  width: 1323px;
+	  left:-37px;
+}
+.threecol .colmid {
+	right:30%;			/* width of the right column */
+}
+.threecol .colleft {
+	right:40%;			/* width of the middle column */
+	background:none repeat scroll 0 0 #E6E6BA;	/* left column background colour */
+    
+}
+.threecol .col1 {
+	border-right: 10px dotted #FFFFFF;
+    left: 93%;
+    margin-left: 2px;
+    margin-top: 5px;
+    min-height: 596px;
+    width: 43%;
+}
+.threecol .col2 {
+     
+      left: 34%;	/* width of (right column) plus (center column left and right padding) plus (left column left padding) */
+      margin-top: 2%;
+      padding: 0 0 20px;
+      width: 28%;			/* Width of left column content (column width minus padding on either side) */
+}
+.threecol .col3 {
+	width:27%;			/* Width of right column content (column width minus padding on either side) */
+	left:65%;			/* Please make note of the brackets here:
+		(100% - left column width) plus (center column left and right padding) plus (left column left and right padding) plus (right column left padding) */
+}
+
+/* Footer styles */
+#footer {
+      border-top: 5px solid #000000;
+      clear: both;
+      float: left;
+      width: 100%;
+      height:50px;
+      background-color: orange;
+}
+
+ #GraphLCC {
+      position: absolute; 
+      visibility: hidden; 
+      width: 520px; 
+      height: 530px; 
+      left: 10px; 
+      top: 10px; 
+      background-color: #eee; 
+      border: 1px solid #000; 
+      padding: 10px; 
+     } 
+ #close { 
+      float: right; 
+ } 
+ 
+.diagramstyle{
+      border: 2px dotted #000000;
+      border-radius: 10px 10px 10px 10px;
+      height: 250px;
+      margin-left: 100px;
+      overflow: hidden;
+      width: 300px;
+}
+
+.odd{
+     background: none repeat scroll 0 0 #DC6666;
+      padding: 5px 0 0 10px;
+      height: 20px;
+      color:#e1e1e1;
+      font-size: 12px;
+}
+
+.even{
+      background: none repeat scroll 0 0 #BC1616;
+      padding: 5px 0 0 10px;
+      height: 20px;
+      color:#e1e1e1;
+      font-size: 12px;
+}
+
+#resultsection{
+    border: 2px dotted #000000;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 25px;
+   width: 230px;
+}
+
+.headerarea{
+   border-bottom: 2px solid #010101;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+}
+
+#selectedvalue h3{
+    text-align: center;
+}
+
+.borderstyle{
+	position : absolute;
+	border: 2px dotted #000000;
+	border-radius: 10px 10px 10px 10px;
+	height: 172px;
+	width: 230px;
+	top : 416px;
+	left: 640px
+}
+
+#selectedvalue{
+     min-height: 240px;
+      max-height:auto;
+}
+
+#outputarea{
+      min-height: 100px;
+      max-height:auto;
+}
+
+#outputresultsection{
+      position : absolute;
+      border: 2px dotted #000000;
+      border-radius: 10px 10px 10px 10px;
+      margin-top: 30px;
+      width: 415px;
+	  left: 750px;
+      height: 172px;
+	  top : 402px;
+     
+}
+
+#contentoutput{
+	border-bottom: 2px solid #E6E6E6;
+    height: 103px;
+    margin-bottom: 10px;
+    overflow: auto;
+    position: relative;
+}
+
+#header h1{
+      padding-left:20px;
+      padding-bottom:20px;
+}
+
+#selectedvalue ul{
+     list-style: none outside none;
+    padding-left: 20px;
+    width: 258px;
+}
+
+#outputarea ul li{
+      border-bottom: 1px dashed #000000;
+}
+
+.aligntext{
+      padding-left:20px;
+}
+.materialvalueout{
+     padding: 10px;
+	width: 232px;
+}
+
+.materialvalueout tr td{
+      padding-left: 10px;
+      text-align: justify;
+}
+
+#outputarea ul{
+  	list-style: none outside none;
+	padding: 5px 5px 5px 45px;
+	width: 200px;
+}
+
+.buttonstyle{
+      background: none repeat scroll 0 0 #CD2626;
+      border: medium none;
+      color: #E6E6E6;
+      padding: 5px;
+	  position:relative;
+	  left:254px;
+	  top:-23px;
+}
+
+.buttonstyle:hover{
+      text-shadow: 1px 1px 2px #000000;
+      box-shadow: 2px 2px 2px #000000;
+}
+
+.buttonstyle1{
+      background: none repeat scroll 0 0 #CD2626;
+      border: medium none;
+      color: #E6E6E6;
+      padding: 5px;
+	  position:relative;
+	  left:372px;
+	  width:143px;
+	  top:-51px;
+}
+.buttonstyle1:hover{
+      text-shadow: 1px 1px 2px #000000;
+      box-shadow: 2px 2px 2px #000000;
+}
+
+.buttonstyle2{
+      background: none repeat scroll 0 0 #CD2626;
+      border: medium none;
+      color: #E6E6E6;
+      padding: 5px;
+	  position:relative;
+	  left:522px;
+	  width:143px;
+	  top:-79px;
+	
+}
+.buttonstyle2:hover{
+      text-shadow: 1px 1px 2px #000000;
+      box-shadow: 2px 2px 2px #000000;
+}
+
+
+.buttonstylereset{
+      background: none repeat scroll 0 0 #CD2626;
+      border: medium none;
+      color: #E6E6E6;
+      padding: 5px;
+	  position:relative;
+	  left:266px;
+	  top:-23px;
+}
+
+.buttonstylereset:hover{
+      text-shadow: 1px 1px 2px #000000;
+      box-shadow: 2px 2px 2px #000000;
+}
+
+.inputstyle{
+      background: none repeat scroll 0 0 #CD263D;
+      border: 1px solid #E6E6E6;
+      color: #E6E6E6;
+      width: 100px;
+	  position:relative;
+	  top:-3px;
+}
+
+.leftcontent{
+	float: none;
+    line-height: 14px;
+    margin: 5px 5px 10px;
+    width: 100px;
+}
+
+.rightconetnt{
+	float: right;
+    line-height: 11px;
+    margin: -32px 5px 10px;
+}
+
+#buttonfooter{
+	display: inline;
+    float: none;
+    margin-left: 17px;
+    margin-top: 15px;
+    width: 500px;
+}
+
+#plotenergy{
+	margin-left: 70px;
+}
+
+#diagramcontainer{
+	position : absolute;
+	border: 2px dotted #000000;
+    border-radius: 10px 10px 10px 10px;
+    height: 600px;
+    left: -133px;
+    top: 0px;
+    overflow: hidden;
+    width: 547px;
+}
+
+#diagram{
+	position: relative;
+	margin-left: 0px;
+    margin-top: 1px;
+	width :544px;
+	height :620px;
+}
+
+#diagram1{
+	position: relative;
+	margin-left: 261px;
+    top: -390px;
+	width :37px;
+	height :142px;
+	/*border: 1px solid black;*/
+}
+#diagram2{
+	position: relative;
+	margin-left: 210px;
+    top: -329px;
+	width :147px;
+	height :81px;
+	
+}
+#startbtn{
+	position:absolute;
+	left:-117px;
+	top:10px;
+	width:48px;
+	z-index:9999;
+}
